@@ -1,0 +1,32 @@
+$font-size: 19px;
+$button-background-color: #D7BDE2;
+$button-font-color: #34495E;
+$text-font-color: #212F3D;
+
+.hello-world-button {
+        color: $button-font-color; 
+        font-size: $font-size;    
+        line-height: 21px; 
+        padding: 12px; 
+        border-radius: 16px; 
+        font-family: Georgia, serif;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        background-color: $button-background-color;
+        box-shadow: #E5E7E9 5px 5px 15px 5px;
+        border: 2px double #9B59B6;
+        display: inline-block;
+        }
+.hello-world-button:hover {
+    background: linear-gradient(90deg, rgba(229,231,233,1) 0%, rgba(215,189,226,1) 67%, rgba(155,89,182,1) 100%);
+}
+.hello-world-button:active {
+    background: linear-gradient(90deg, rgba(229,231,233,1) 0%, rgba(215,189,226,1) 67%, rgba(155,89,182,1) 100%);}
+
+.hello-world-text {
+    color: $text-font-color;
+    font-weight: bold;
+}
